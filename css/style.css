@@ -786,6 +786,7 @@ footer .copywrite {
 }
 
 .marquee {
+  font-weight: 900; 
         position: fixed;
     bottom: 0;
     /* padding: 8px; */
