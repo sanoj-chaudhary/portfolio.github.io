@@ -39,7 +39,29 @@
 }
 
 .inputField{
-    border: 1px solid var(--dark);
+    border: 1px solid white;
+    color: white;
+    outline: none;
+}
+.inputField:focus{
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+
+.btn-outline-primary{
+    margin-top: 2rem;
+    background-color: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.btn-outline-primary:hover{
+    border-color: transparent;
+    color: var(--dark);
+    background-color: var(--primary);
 }
 /* img{
     transition: all 0.5s ease-in-out;
