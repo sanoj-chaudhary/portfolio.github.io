@@ -799,6 +799,10 @@ footer .copywrite {
   animation: NAME-YOUR-ANIMATION 5s infinite;  /* IE 10+, Fx 29+ */
 }
 
+.marquee marquee{
+  font-weight: 900; 
+}
+
 @-webkit-keyframes NAME-YOUR-ANIMATION {
   0%, 30% {
     background: rgb(2,0,36);
