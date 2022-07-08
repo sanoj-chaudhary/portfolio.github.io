@@ -176,7 +176,7 @@ header nav .left a:hover {
 }
 
 .section-heading+p {
-    color: white;
+    color: cadetblue;
     font-family: "Lato", "sans-serif";
     margin-bottom: 1rem;
     text-align: center;
@@ -202,7 +202,7 @@ section.services .card_wrapper .card {
     padding: 3rem 2rem;
     padding-top: 6rem;
     text-align: center;
-    transition: all 0.3s ease;
+    transition: all 0.9s ease;
 }
 
 section.services .card_wrapper .card:hover {
@@ -553,6 +553,7 @@ footer .copywrite {
     color: var(--light);
     margin-top: 3rem;
     font-weight: 300;
+    margin-bottom: 30px;
     font-family: "Lato", "sans-serif";
 }
 
