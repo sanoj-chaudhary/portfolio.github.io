@@ -852,7 +852,7 @@ footer .copywrite {
     font-weight: 900;
     position: fixed;
     bottom: 0;
-    /* padding: 8px; */
+    
     font-size: 30px;
     color: var(--primary);
     width: 100%;
@@ -876,7 +876,7 @@ footer .copywrite {
     30% {
         background: rgb(2, 0, 36);
         background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(92, 121, 9, 0.8104283949908089) 35%, rgba(0, 212, 255, 1) 100%);
-        /* border: 3px solid #e50000; */
+      
     }
     31%,
     70% {
@@ -888,6 +888,31 @@ footer .copywrite {
     100% {
         background: rgb(2, 0, 36);
         background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 40, 0.8608485630580357) 16%, rgba(255, 67, 0, 1) 94%);
-        /* border: 3px solid rgb(117, 209, 63); */
     }
+}
+
+#back-to-top {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background: black;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -o-border-radius: 4px;
+    border-radius: 5px;
+    bottom: 20px;
+    color: #fff;
+    display: none;
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    transition: background-color .1s linear;
+    -moz-transition: background-color .1s linear;
+    -webkit-transition: background-color .1s linear;
+    -o-transition: background-color .1s linear;
+    width: 50px;
+    z-index: 99;
+    z-index: 1000;
+    line-height: 62px;
 }
